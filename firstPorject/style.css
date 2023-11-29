@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+section{
+    height: 100px;
+    width: 250px;
+    background-color: red;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+li{
+    color: white;
+}
+
+ul li{
+    list-style: lower-greek;
+}
+
+#list1 li{
+    list-style: circle;
+}
+
+#list2 li{
+    list-style: armenian;
+}
+
+section h1{
+    color: green;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav{
+    background-color: rebeccapurple;
+    height: 60px;
+    width: 100%;
+}
+
+img{
+    height: 100px;
+}
