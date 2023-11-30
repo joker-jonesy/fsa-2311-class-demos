@@ -4,12 +4,16 @@
 }
 
 section{
-    height: 100px;
-    width: 250px;
+    min-height: 100px;
+    width: 100%;
     background-color: red;
     margin-bottom: 10px;
-    padding: 8px;
+    padding: 16px;
+    border: black 5px solid;
+    position: relative;
 }
+
+/*this styling is for my list tags*/
 
 li{
     color: white;
@@ -40,8 +44,29 @@ nav{
     background-color: rebeccapurple;
     height: 60px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    padding: 8px;
 }
 
 img{
-    height: 100px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.delete{
+    height: 30px;
+    width: 10%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+body{
+    padding-top: 65px;
 }
