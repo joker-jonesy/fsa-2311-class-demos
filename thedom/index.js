@@ -2,6 +2,7 @@
 
 
 const root = document.getElementById("root");
+// const root = document.querySelector("#root");
 const data = [
     {
         name:"LEGO SET 2",
@@ -36,4 +37,24 @@ data.forEach((itm)=>{
     root.appendChild(ele);
 })
 
+// query selector grabs the first element
+
+// document.querySelector(".product").style.backgroundColor="red";
+
+// document.getElementsByClassName("product")[1].style.backgroundColor="red";
+
+// getElementsByClassName create an array of the elements with the class specified
+
+const products =document.getElementsByClassName("product");
+
+
+[...products].forEach((ele)=>{
+    ele.style.backgroundColor="red"
+})
+
+// console.log([...products])
+
+const randomNumber = Math.floor(Math.random()*data.length)
+
+console.log(data[randomNumber])
 
