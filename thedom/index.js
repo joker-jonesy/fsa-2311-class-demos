@@ -30,7 +30,6 @@ data.forEach((itm)=>{
         fancyBox.style.border="5px black solid"
     }
 
-
     ele.appendChild(title);
     ele.appendChild(price);
     ele.appendChild(fancyBox);
